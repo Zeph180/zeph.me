@@ -12,7 +12,6 @@
     height: 60px;
     border-radius: 50%;
     text-align: center;
-    align-items: center;
 }
 
 #nav-list {
@@ -21,15 +20,13 @@
     height: 40px;
     padding-left: 0;
     padding-right: 20px;
+    padding-top: 15px;
 }
 
 .nav-list-item {
     display: inline-block;
-    justify-self: center;
-    padding-top: 6%;
     padding-left: 20px;
     margin-right: 40;
-    text-decoration: none;
 }
 
 .nav-logo {
@@ -38,4 +35,5 @@
 
 .nav-link {
     color: rgba(156, 200, 225, 1);
+    text-decoration: none;
 }

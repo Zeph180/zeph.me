@@ -1,0 +1,41 @@
+#nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 10px;
+}
+
+#nav-logo {
+    background-color: pink;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+#nav-list {
+    background-color: #022253;
+    width: fit-content;
+    height: 40px;
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.nav-list-item {
+    display: inline-block;
+    justify-self: center;
+    padding-top: 6%;
+    padding-left: 20px;
+    margin-right: 40;
+    text-decoration: none;
+}
+
+.nav-logo {
+    background-color: aqua;
+}
+
+.nav-link {
+    color: rgba(156, 200, 225, 1);
+}

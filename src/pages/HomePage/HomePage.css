@@ -1,0 +1,23 @@
+#home-container {
+    padding-left: 15%;
+}
+
+.home-greeting {
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 19px;
+    color: #0F85F2;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: Left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 19px;
+}

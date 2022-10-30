@@ -3,7 +3,6 @@
     justify-content: space-between;
     padding-left: 80px;
     padding-right: 80px;
-    margin-top: 10px;
 }
 
 #nav-logo {
@@ -12,12 +11,14 @@
     height: 60px;
     border-radius: 50%;
     text-align: center;
+    justify-self: center;
+        margin-top: 10px;
 }
 
 #nav-list {
     background-color: #022253;
     width: fit-content;
-    height: 40px;
+    height: 30px;
     padding-left: 0;
     padding-right: 20px;
     padding-top: 15px;
@@ -29,11 +30,7 @@
     margin-right: 40;
 }
 
-.nav-logo {
-    background-color: aqua;
-}
-
 .nav-link {
-    color: rgba(156, 200, 225, 1);
+    color: #9CC8E1;
     text-decoration: none;
 }

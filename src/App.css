@@ -4,7 +4,7 @@
  #app-container {
    background-image: url(./assets/firstScreen.png);
    background-repeat: no-repeat;
-   height: 100vh;
+   background-attachment: fixed;
    background-size: cover;
    background-position: center;
  }

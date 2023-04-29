@@ -46,6 +46,12 @@
     color: var(--deep-blue);
 }
 
+.hidden {
+    display: none;
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
 /* #nav-container {
     display: flex;
     justify-content: space-between;

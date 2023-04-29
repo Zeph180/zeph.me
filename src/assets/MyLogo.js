@@ -1,12 +1,13 @@
 /* eslint-disable react/prop-types */
 import * as React from "react";
-const MyLogo = ({ width = 51, height = 41, props }) => (
+const MyLogo = (props) => (
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
-		width={width}
-		height={height}
+		width={51}
+		height={41}
 		fill="none"
 		{...props}
+		onClick={props.onClick}
 	>
 		<path
 			fill="#0F85F2"

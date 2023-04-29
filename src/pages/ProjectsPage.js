@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectsPage = () => {
 	return (
-		<div>
+		<div id="projects">
 			<p>my projects</p>
 		</div>
 	);
